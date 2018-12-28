@@ -8,6 +8,7 @@ header {
   background-color: #FBFFF4;
   height: 80px;
   width: 100%;
+  flex-shrink: 0;
 }
 
 main {
@@ -25,6 +26,7 @@ footer {
   background-color: #DAEEEF;
   height: 80px;
   width: 100%;
+  flex-shrink: 3;
 }
 .flex-container {
   display: flex;
