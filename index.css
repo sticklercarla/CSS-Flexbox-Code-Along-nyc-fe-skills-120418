@@ -18,7 +18,7 @@ main {
   flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: baseline;
 }
 
 footer {
@@ -33,6 +33,7 @@ footer {
   flex-direction: column;
 }
 .item {
+  height: 100px;
   width: 100px;
   margin: 5px;
   background-color: #FCF2EC;
